@@ -58,7 +58,7 @@
         <property role="1_w1dc" value="foo" />
       </node>
       <node concept="1_w1dd" id="7Cs8ocvBW2X" role="1_waxs">
-        <property role="1_w1dc" value="bar" />
+        <property role="1_w1dc" value="barz" />
       </node>
     </node>
     <node concept="1_w1dm" id="7Cs8ocvBrEx" role="1_w1dg">
