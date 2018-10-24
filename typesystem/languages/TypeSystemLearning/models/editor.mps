@@ -24,11 +24,14 @@
       <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
-      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1215007762405" name="jetbrains.mps.lang.editor.structure.FloatStyleClassItem" flags="ln" index="3$6MrZ">
+        <property id="1215007802031" name="value" index="3$6WeP" />
+      </concept>
+      <concept id="1215007883204" name="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" flags="ln" index="3$7fVu" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -141,6 +144,9 @@
       <node concept="Vb9p2" id="79YL5ZoIYZD" role="3F10Kt">
         <property role="Vbekb" value="ITALIC" />
       </node>
+      <node concept="3$7fVu" id="4V152FyAVpw" role="3F10Kt">
+        <property role="3$6WeP" value="0.5" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7Cs8ocvBnUb">
@@ -149,11 +155,9 @@
     <node concept="3EZMnI" id="7Cs8ocvBnUd" role="2wV5jI">
       <node concept="3F0ifn" id="7Cs8ocvBnUk" role="3EZMnx">
         <property role="3F0ifm" value="&quot;" />
-        <node concept="11LMrY" id="7Cs8ocvBnUz" role="3F10Kt" />
       </node>
       <node concept="3F0A7n" id="7Cs8ocvBnUu" role="3EZMnx">
         <ref role="1NtTu8" to="awee:7Cs8ocvB3bf" resolve="value" />
-        <node concept="11LMrY" id="7Cs8ocvBnU_" role="3F10Kt" />
       </node>
       <node concept="3F0ifn" id="7Cs8ocvBnUn" role="3EZMnx">
         <property role="3F0ifm" value="&quot;" />

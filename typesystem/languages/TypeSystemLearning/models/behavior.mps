@@ -133,5 +133,38 @@
       <node concept="17QB3L" id="3ZxRXyFa2iI" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="4V152FyAFDH">
+    <property role="3GE5qa" value="expressions" />
+    <ref role="13h7C2" to="awee:7Cs8ocvB3be" resolve="StringLiteral" />
+    <node concept="13hLZK" id="4V152FyAFDI" role="13h7CW">
+      <node concept="3clFbS" id="4V152FyAFDJ" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4V152FyAFDS" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getPresentation" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3Tm1VV" id="4V152FyAFE5" role="1B3o_S" />
+      <node concept="3clFbS" id="4V152FyAFE6" role="3clF47">
+        <node concept="3clFbF" id="4V152FyAFMu" role="3cqZAp">
+          <node concept="2YIFZM" id="4V152FyAFNj" role="3clFbG">
+            <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+            <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+            <node concept="Xl_RD" id="4V152FyAFOo" role="37wK5m">
+              <property role="Xl_RC" value="%s" />
+            </node>
+            <node concept="2OqwBi" id="4V152FyAGak" role="37wK5m">
+              <node concept="13iPFW" id="4V152FyAFYe" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4V152FyAGtz" role="2OqNvi">
+                <ref role="3TsBF5" to="awee:7Cs8ocvB3bf" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="4V152FyAFE7" role="3clF45" />
+    </node>
+  </node>
 </model>
 
