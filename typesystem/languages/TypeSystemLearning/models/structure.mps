@@ -174,6 +174,7 @@
     <property role="EcuMT" value="4603206415826714636" />
     <property role="3GE5qa" value="types" />
     <property role="TrG5h" value="IntegerType" />
+    <property role="34LRSv" value="integer" />
     <ref role="1TJDcQ" node="7Cs8ocvB3bq" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="4V152FyA$bb">
