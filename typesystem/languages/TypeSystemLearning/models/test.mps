@@ -39,6 +39,10 @@
         <property id="4603206415826714634" name="value" index="2kLPZi" />
       </concept>
       <concept id="4603206415826714636" name="TypeSystemLearning.structure.IntegerType" flags="ng" index="2kLPZk" />
+      <concept id="1194951244003122600" name="TypeSystemLearning.structure.Assignment" flags="ng" index="1m8GLV">
+        <reference id="1194951244003122604" name="left" index="1m8GLZ" />
+        <child id="1194951244003122608" name="right" index="1m8GLz" />
+      </concept>
       <concept id="8798944619029869218" name="TypeSystemLearning.structure.StringType" flags="ng" index="1_w1cx">
         <property id="8798944619029869219" name="maxLength" index="1_w1cw" />
       </concept>
@@ -46,6 +50,7 @@
         <property id="8798944619029869263" name="value" index="1_w1dc" />
       </concept>
       <concept id="8798944619029869265" name="TypeSystemLearning.structure.Model" flags="ng" index="1_w1di">
+        <child id="1194951244003122611" name="assignments" index="1m8GLw" />
         <child id="8798944619029869267" name="expressions" index="1_w1dg" />
         <child id="8798944619029869272" name="variables" index="1_w1dr" />
       </concept>
@@ -246,6 +251,32 @@
           </node>
           <node concept="2kLPZh" id="4vEJ2j2YY9f" role="1_waxu">
             <property role="2kLPZi" value="5" />
+          </node>
+        </node>
+        <node concept="1m8GLV" id="12lktd6ItAU" role="1m8GLw">
+          <ref role="1m8GLZ" node="4vEJ2j2YXZC" resolve="anInt" />
+          <node concept="1_w1dd" id="12lktd6ItAY" role="1m8GLz">
+            <property role="1_w1dc" value="foo" />
+          </node>
+          <node concept="7CXmI" id="3QNkN21ENQF" role="lGtFl">
+            <node concept="1TM$A" id="3QNkN21ENQG" role="7EUXB">
+              <node concept="2PYRI3" id="3QNkN21ENRc" role="3lydEf">
+                <ref role="39XzEq" to="zqdi:12lktd6IVPs" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1m8GLV" id="12lktd6J61i" role="1m8GLw">
+          <ref role="1m8GLZ" node="4vEJ2j2YXZC" resolve="anInt" />
+          <node concept="2kLPZh" id="12lktd6J61D" role="1m8GLz">
+            <property role="2kLPZi" value="3" />
+          </node>
+          <node concept="7CXmI" id="3QNkN21ENT7" role="lGtFl">
+            <node concept="1TM$A" id="3QNkN21ENT8" role="7EUXB">
+              <node concept="2PYRI3" id="3QNkN21ENTC" role="3lydEf">
+                <ref role="39XzEq" to="zqdi:12lktd6IVPs" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
